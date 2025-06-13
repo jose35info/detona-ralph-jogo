@@ -1,0 +1,80 @@
+:root {
+  --font: "Press Start 2P", monospace;
+  font-weight: 400;
+}
+body {
+  font-family: var(--font);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(../img/wall.png);
+  
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  background-color: #121111;
+  color: #fff;
+  border-bottom: 2px solid #ffd700;
+}
+h2 {
+  color: red;
+}
+.painel{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.square{
+  height: 150px;
+  border: 1px solid #000;
+  width: 150px;
+  background-color: #7fffd4;
+}
+.enemy{
+  background-image: url(../img/ralph.png);
+  background-size: cover;
+}
+.menu-lives{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  max-width: 30px;
+  max-height: 30px;
+}
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2),
+.menu-lives h2:nth-child(2),
+.menu-highscore h2:nth-child(2) {
+  color: #fff;
+  margin-top: 10px;
+}
+#gameOver{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ff0000;
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 999;
+  width: 300px;
+  height: 100px;
+  background-color: #ffffffa0;
+  padding: 20px;
+  position: absolute;
+  height: 50vh;
+}
+
