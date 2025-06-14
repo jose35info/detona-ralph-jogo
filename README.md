@@ -7,7 +7,8 @@ Bem-vindo ao jogo inspirado no universo do Detona Ralph, onde o objetivo é acer
 
 ## 📸 Demonstração
 
-![]()
+
+![print-jogo](https://github.com/user-attachments/assets/090473bb-4bed-4beb-a868-6c1041881afe)
 
 
 
@@ -50,7 +51,7 @@ Bem-vindo ao jogo inspirado no universo do Detona Ralph, onde o objetivo é acer
 ## ▶️ Como Jogar
 1. Clone o repositório:
 
- git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/jose35info/detona-ralph-jogo/commits?author=jose35info
 
 2. Abra o arquivo index.html no navegador.
 
